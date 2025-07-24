@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing html tags</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <h1> What's Up</h1>
+
+   <section class="red bg-blue">hi</section>
+
+    <form>
+  <label>Email:</label>
+  <input type="email" name="email" required>
+
+  <label class="colo">Password:</label>
+  <input type="password" name="password" required minlength="6">
+
+  <label>Age:</label>
+  <input type="number" name="age" min="18" max="60">
+
+  <label>Username (letters only):</label>
+  <input type="text" name="username" pattern="[A-Za-z]{3,}" title="Min 3 letters only">
+
+  <input type="submit" value="Register">
+</form>
+
+<br><br>
+<form action="">
+    <label >Email:</label>
+    <input type="email" name="email" required>
+
+    <label >Password:</label>
+    <input type="password" name="password" required minlength="6">
+
+    <label>Age:</label>
+    <input type="number" name="age" min="18" max="100">
+
+    <label >Username (only letters)</label>
+    <input type="text" name="username" pattern="[A-Za-z]{3,}" title="Min 3 letters or more">
+
+    <input type="submit" value="Register">
+</form>
+
+
+</body>
+</html>
